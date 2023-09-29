@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+header {
+    height: 100vh;
+}
+
+.navigation ol {
+    list-style-type: none;
+    color: rgb(101, 114, 172);
+    font-size: large;
+ }
+  
+.navigation {
+    display: inline-block;
+}
+
+.navigation a::after {
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px;
+  }
